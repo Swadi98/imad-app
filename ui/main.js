@@ -20,3 +20,6 @@ button.onclick =function(){
     request.open('GET', 'http://kswadi01.imad.hasura-app.io/counter',true);
     request.send(null);
 };
+
+var element=document.getElementById('main-text');
+element.innerHTML='New Value';
