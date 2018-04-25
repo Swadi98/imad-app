@@ -1,7 +1,7 @@
 //console.log('Loaded!');
 var button= document.getElementById('counter');
 
-/* button.onclick= function(){
+button.onclick= function(){
     
     var request = new XMLHttpRequest(); 
     request.onreadystatechange= function(){
@@ -16,17 +16,19 @@ var button= document.getElementById('counter');
     };
     
   request.open('GET','http://kswadi01.imad.hasura-app.io/counter',true);
-  reques.send(null);
+  request.send(null);
   
     
 };
-*/
+
+/*
 var counter =0;
 button.onclick=function(){
     counter =counter+1;
     var span=document.getElementById('count');
     span.innerHTML = counter.toString();
 };
+*/
 
 
 /* var element=document.getElementById('main-text');
